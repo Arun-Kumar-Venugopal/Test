@@ -2,6 +2,14 @@
 
 ### Dashboard Link : https://app.powerbi.com/links/2HxydxvEaj?ctid=4b05e781-4500-43c7-a12b-f7a45bcd4a54&pbi_source=linkShare
 
+## Architecture
+SQL Server → Power BI Service Dataflow → Power BI Desktop → Power BI Service
+
+## Key Highlights
+- Designed an end-to-end Power BI solution using SQL Server and Dataflows
+- Implemented DAX measures for YOY, YTD, and risk segmentation
+- Built a 3-page analytical dashboard for loan default analysis
+
 ## Problem Statement
 
 This dashboard helps stakeholders understand **loan performance and default risk** using borrower demographics, credit profile, and time-based risk metrics.  
