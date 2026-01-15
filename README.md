@@ -3,6 +3,10 @@
 ### 📂 GitHub Repository
 https://github.com/Arun-Kumar-Venugopal/Loan-Default-Analysis-PowerBI
 
+## Business Context
+This dashboard supports **credit risk and lending teams** by analyzing loan default patterns.
+It helps identify **high-risk customers**, monitor **default rates**, and evaluate loan portfolio health to support better credit decision-making.
+
 ## Architecture
 SQL Server → Power BI Service Dataflow → Power BI Desktop → Power BI Service
 
