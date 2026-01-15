@@ -1,6 +1,6 @@
 # Loan Default Analysis - End to End Power BI Project (SQL Server + Dataflow + Power BI Service)
 
-### 📂 GitHub Repository
+### GitHub Repository
 https://github.com/Arun-Kumar-Venugopal/Loan-Default-Analysis-PowerBI
 
 ## Business Context
@@ -29,12 +29,7 @@ SQL Server
 → Power BI Desktop (Data Modeling & DAX)  
 → Power BI Service (Publish & Refresh)
 
-## Key Highlights
-- Designed an end-to-end Power BI solution using SQL Server and Dataflows
-- Implemented DAX measures for YOY, YTD, and risk segmentation
-- Built a 3-page analytical dashboard for loan default analysis
-
-## Problem Statement
+## Analytical Scope & Insights
 
 This dashboard helps stakeholders understand **loan performance and default risk** using borrower demographics, credit profile, and time-based risk metrics.  
 It provides insights into:
@@ -48,6 +43,10 @@ It provides insights into:
 The report is built as an end-to-end pipeline:
 **SQL Server → Power BI Service Dataflow → Power BI Desktop → Power BI Service (Publish + Refresh).**
 
+## Key Highlights
+- Designed an end-to-end Power BI solution using SQL Server and Dataflows
+- Implemented DAX measures for YOY, YTD, and risk segmentation
+- Built a 3-page analytical dashboard for loan default analysis
 
 ---
 
@@ -212,7 +211,8 @@ Key insights derived from the dashboard include:
 
 > Note: Power BI Service link requires Microsoft login.
 > Dataset refresh depends on workspace capacity.
-### ▶️ Live Demo (Power BI Service)
+
+### Live Demo (Power BI Service)
 🔗 View-only report (Microsoft login required):  
 https://app.powerbi.com/links/2HxydxvEaj?ctid=4b05e781-4500-43c7-a12b-f7a45bcd4a54&pbi_source=linkShare
 
@@ -224,6 +224,12 @@ https://app.powerbi.com/links/2HxydxvEaj?ctid=4b05e781-4500-43c7-a12b-f7a45bcd4a
 - Publishing and managing datasets and reports in Power BI Service
 - Understanding Power BI licensing limitations (Pro vs Premium) for dataflows and refresh
 - Documenting enterprise-style BI projects for portfolio and stakeholder review
+
+## Possible Enhancements
+- Implement Row-Level Security (RLS) for user-based access
+- Enable incremental refresh with Premium capacity
+- Optimize DAX performance for larger datasets
+- Automate monitoring using Power BI Service alerts
 
 ## Author
 Created by: Arun Kumar Venugopal
